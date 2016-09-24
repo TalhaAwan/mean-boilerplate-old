@@ -1,0 +1,22 @@
+{
+  "type":"object",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "https://novardo.com/schemas/user-sign-in",
+  "description": "SignIn a use",
+  "properties": {
+    "email": {
+      "type": "string",
+      "minLength": 5,
+      "description" : "Email"
+    },
+    "password": {
+      "type": "string",
+      "format": "string",
+      "minLength": 1,
+      "description" : "Password"
+    }
+  },
+  "additionalProperties": false,
+  "required": ["email","password"]
+
+}

@@ -1,0 +1,13 @@
+{
+  "name": "boilerplate",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "ejs": "^2.5.2",
+    "express": "~4.14.0",
+    "jsonschema": "^1.1.0",
+    "jwt-simple": "^0.5.0",
+    "method-override": "~2.3.6",
+    "mongoose": "~4.5.2"
+  }
+}
