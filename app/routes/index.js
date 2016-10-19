@@ -1,3 +1,4 @@
+// routes/index.js
 var fs = require('fs');
 var path = require('path');
 module.exports = function (app) {
@@ -6,9 +7,4 @@ module.exports = function (app) {
 	    require(path.join(__dirname, file))(app);
 	  }
 	});
-
-
-    //app.get('*', function(req, res) {
-    //    res.sendfile('./public/index.html');
-    //});
 };
