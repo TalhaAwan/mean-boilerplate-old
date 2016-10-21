@@ -37,6 +37,12 @@ models(app)
 controllers(app)
 routes(app)
 
+
+function fillInUndefinedFields(obj){
+    for(var key in obj){
+
+    }
+}
 app.get('*', function(req, res) {
     res.render('../public/index.html');
 });
