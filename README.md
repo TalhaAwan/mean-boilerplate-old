@@ -1,1 +1,1 @@
-Tarjuma Application
+Boilerplate Application
