@@ -17,15 +17,5 @@ angular.module('boilerplate').controller('signInController', function($scope, si
         })
     }
 
-    $scope.test = function(){
-        signInService.test( function(data){
-
-                console.log(data)
-            },
-            function(err){
-
-                console.log(err)
-            })
-    }
 
 });
